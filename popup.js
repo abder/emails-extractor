@@ -4,7 +4,7 @@ window.onload = async () => {
     const emailsCount = document.getElementById('emails-count');
     const downloadButton = document.getElementById('download-button');
     
-    // get the current tab and inject email
+    // get the current tab and execute a script within it
     let [tab] = await chrome.tabs.query({ active: true, currentWindow: true });
         chrome.scripting.executeScript({
         target: { tabId: tab.id },
