@@ -5,10 +5,31 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    background: rgb(255,255,255);
+    background: linear-gradient(45deg, rgba(255,255,255,0) 0%, rgba(0,150,143,0.38139005602240894) 100%, rgba(255,255,255,1) 100%);
+}
+
+.popup p {
+    font-size: 14px;
+}
+
+.emails-count {
+    color: #e02526;
+    font-weight: bold;
 }
 
 .download-button {
     cursor: pointer;
+    background: #e9a821;
+    color: #231f20;
+    border: 0;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;
 }
+
+.download-button:hover {
+    opacity: 0.9;
+} 
 
 
