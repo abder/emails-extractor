@@ -1,9 +1,9 @@
 {
     "name": "Email Extractor",
-    "description": "Chrome Extension to extract emails from the web pages",
+    "description": "Chrome Extension to extract emails from web pages",
     "version": "1.0",
     "manifest_version": 3,
-    "permissions": ["storage"],
+    "permissions": ["scripting", "activeTab"],
     "action": {
         "default_popup": "popup.html"
     },
